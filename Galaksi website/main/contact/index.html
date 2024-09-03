@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Kontak Kami</h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="contact-form">
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input type="email" name="email" placeholder="Your Email" required />
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+            <div id="loading-screen" class="loading-screen">
+              <div class="spinner"></div>
+            </div>
+            <p id="status" class="status"></p>
+          </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

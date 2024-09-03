@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register - Galaksi</title>
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="loading" style="display: none">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <div class="register-container">
+        <h2>Register</h2>
+        <form method="post" action="" name="data-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="your-name" placeholder="Your name" required>
+            
+            <label for="email">Class</label>
+            <input type="text" id="class" name="your-class" placeholder="Your class" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="your-email" placeholder="Your email" required>
+            
+            <label for="Divisi">Divisi</label>
+            <input type="text" id="divisi" name="your-divisi" placeholder="Editing/dsb" required>
+            
+            <input type="submit" value="Submit" id="submit-btn">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
